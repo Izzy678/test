@@ -1,0 +1,20 @@
+{
+  "name": "practice-oop",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "dev": "yarn build && nodemon dist/app.js",
+    "start:prod": "node dist/app.js"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "@types/express": "^4.17.21",
+    "express": "^4.19.2"
+  }
+}
